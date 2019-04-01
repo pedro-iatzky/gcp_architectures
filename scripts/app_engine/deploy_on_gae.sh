@@ -142,6 +142,8 @@ deploy_onto_gae() {
 
 
 main() {
+    # TODO check the needed tools are installed
+
     echo "seting the directory up..."
     set_up_dir
     echo "downloading and installing dependencies"
